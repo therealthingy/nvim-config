@@ -6,12 +6,12 @@
 local M = {}
 
 M.base46 = {
-	theme = "everforest_light",
+    theme = "gruvbox",
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+    -- hl_override = {
+    -- 	Comment = { italic = true },
+    -- 	["@comment"] = { italic = true },
+    -- },
 }
 
 M.mason = {
@@ -32,10 +32,10 @@ M.mason = {
         "shellcheck",
 
         "pyright",
-        "black",    -- Python Formatter
+        "black", -- Python Formatter
 
         "lua-language-server",
-        "stylua",   -- Lua Formatter
+        "stylua", -- Lua Formatter
 
         "html-lsp",
         "css-lsp",
@@ -45,11 +45,11 @@ M.mason = {
 
         "docker-compose-language-service", -- docker-compose.yml
         "dockerfile-language-server",      -- Dockerfile
-        "taplo",    -- Toml
+        "taplo",                           -- Toml
 
         "texlab",
 
-    --[[TODO:
+        --[[TODO:
       - sonarlint (https://github.com/SonarSource/sonarlint-language-server)
 ]]
     },
