@@ -48,6 +48,9 @@ lspconfig["rust_analyzer"].setup {
     capabilities = nvlsp.capabilities,
     settings = {
         ["rust-analyzer"] = {
+            cargo = {
+                allFeatures = true
+            },
             diagnostics = {
                 enable = true,
             },
